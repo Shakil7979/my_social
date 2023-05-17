@@ -1,0 +1,72 @@
+html{
+	font-size: 62.5%;
+}
+body{	
+	font-size: 1.6rem;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li a,a{
+	text-decoration: none;
+}
+/*===========================  Start Header Section  ===========================*/
+.header_main{
+	margin: 30px 0px;
+}
+.basicheader{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	}
+.basicheader h1{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.basicheader ul{
+	text-align: left;
+	margin: auto;
+}
+.basicheader ul li {
+	margin-top: 15px;
+	font-weight: bold;
+}
+.basicheader ul li a{
+	display: flex;
+	align-items: center;
+}
+.basicheader ul li a i{
+	margin-left: 15px;
+	font-size: 25px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo a{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	color: Green;
+}
+.logo p{
+	color: Green;
+}
+.basicbanner img{
+	width: 100%;
+	height: auto;
+}
+.logo a:last-child{
+	font-size: 16px;
+}
+
+/*===========================  End Header Section  ===========================*/
