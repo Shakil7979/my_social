@@ -69,4 +69,16 @@ ul li a,a{
 	font-size: 16px;
 }
 
+.basicheader p {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	/* text-align: justify; */
+	line-height: 20px;
+	background: green;
+	padding: 19px;
+	border-radius: 5px;
+	color: #fff;
+}
+
 /*===========================  End Header Section  ===========================*/
